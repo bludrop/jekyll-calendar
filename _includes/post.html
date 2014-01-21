@@ -1,7 +1,8 @@
 <div class="post">
 <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
-<div class="byline">Submitted by: <span id="author"></span>
-| Tags: {% for tag in page.tags %}{{ tag }} {% endfor %}
+<div class="byline">
+    <!--Submitted by: <span id="author"></span>
+| --> Tags: {% for tag in page.tags %}{{ tag }} {% endfor %}
 |
 
 <!-- Social Links -->
@@ -33,10 +34,11 @@
 {{ page.content | markdownify }}
 </div>
 <script>
-$(document).ready(function() {
+/*$(document).ready(function() {
   var url = 'https://api.github.com/users/{{ page.author }}';
   $.getJSON(url + '?callback=?', null, function(response) {
     $('<a href="' + response.data.html_url + '">' + response.data.login + '</a>').appendTo('#author');
   });
 });
+*/
 </script>

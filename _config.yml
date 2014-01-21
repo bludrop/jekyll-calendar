@@ -1,13 +1,13 @@
 meta:
-  site_title: "Seattle Hacks"
-  site_subtitle: "For Seattle developers, by Seattle developers"
+  site_title: "Ami Miami- Calendar Test"
+  site_subtitle: "Judaism in North Dade"
   site_language: "en"
-  absolute_baseurl: http://seattlehacks.com
-  domain: seattlehacks.com
+  absolute_baseurl: http://bludrop.github.io/jekyll-serve
+#  domain: seattlehacks.com
   author:
-    full_name: Carter Rabasa
-    short_name: crabasa
-    email: carter@rabasa.com
+    full_name: Brian Blumenthal
+    short_name: bludrop
+    email: brian@bludrop.com
 
 pygments: true
 markdown: rdiscount
