@@ -2,8 +2,8 @@ meta:
   site_title: "Ami Miami- Calendar Test"
   site_subtitle: "Judaism in North Dade"
   site_language: "en"
-  absolute_baseurl: http://bludrop.github.io/jekyll-serve
-#  domain: seattlehacks.com
+  absolute_baseurl: http://bludrop.github.io/jekyll-calendar/
+  domain: http://bludrop.github.io/jekyll-calendar/
   author:
     full_name: Brian Blumenthal
     short_name: bludrop
