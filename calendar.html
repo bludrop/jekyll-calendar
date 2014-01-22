@@ -5,14 +5,19 @@ title: Calendar of Events
 <div id="calendar">
 </div>
 
+<div id="clndr"></div>
+
 <script src="/javascripts/moment.min.js"></script>
 <script>
-
+/*
 var timing = function(start, end) {
   // this can be improved another time
   return moment(start).format('MM/DD/YYYY h:mma') + ' - ' + moment(end).format('MM/DD/YYYY h:mma');
 };
 
+ */   
+ 
+ /*   
 $(document).ready(function() {
   $.getJSON('/api/cal.json', null, function(response) {
     var groups = _.groupBy(response.events, function(event) { return moment(event.start).format('YYYY-MM-DD'); }); 
@@ -26,5 +31,27 @@ $(document).ready(function() {
       }
     });    
   });
+});
+*/
+    
+    var clndr = {};
+
+  //    var thisMonth = moment().format('YYYY-MM');
+
+    /*
+      var eventArray = [
+    { startDate: thisMonth + '-10', endDate: thisMonth + '-14', title: 'Multi-Day Event' },
+    { startDate: thisMonth + '-21', endDate: thisMonth + '-23', title: 'Another Multi-Day Event' },
+        
+  ];
+*/
+$(document).ready(function() {
+  var eventsArray = [
+    { date: moment().format('YYYY-MM-') + '07', title: 'This is an Event' },
+    { date: moment().format('YYYY-MM-') + '23', title: 'Another Event' }
+  ];
+
+      clndr.defaultSetup = $('#clndr').clndr();
+
 });
 </script>
