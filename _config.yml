@@ -2,7 +2,6 @@ meta:
   site_title: "Ami Miami- Calendar Test"
   site_subtitle: "Judaism in North Dade"
   site_language: "en"
-  baseurl: /jekyll-calendar
 #  absolute_baseurl: http://bludrop.github.io/jekyll-calendar/
 #  domain: http://bludrop.github.io/jekyll-calendar/
   author:
@@ -10,6 +9,7 @@ meta:
     short_name: bludrop
     email: brian@bludrop.com
 
+baseurl: /jekyll-calendar
 pygments: true
 markdown: rdiscount
 permalink: pretty
