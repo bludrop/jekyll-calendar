@@ -3,8 +3,8 @@ meta:
   site_subtitle: "Judaism in North Dade"
   site_language: "en"
   baseurl: /jekyll-calendar
-  absolute_baseurl: http://bludrop.github.io/jekyll-calendar/
-  domain: http://bludrop.github.io/jekyll-calendar/
+#  absolute_baseurl: http://bludrop.github.io/jekyll-calendar/
+#  domain: http://bludrop.github.io/jekyll-calendar/
   author:
     full_name: Brian Blumenthal
     short_name: bludrop
